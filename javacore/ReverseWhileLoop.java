@@ -2,21 +2,18 @@ package javacore;
 
 public class ReverseWhileLoop {
 
+		public static void main(String[] args) {
 
+			int i = 5;
 
-	public static void main(String[] args) {
+			while (i >= 1) {
 
-		int i = 5;
+				System.out.println(i);
 
-		while (i >= 1) {
+				i--;
 
-			System.out.println(i);
-
-			i--;
+			}
 
 		}
 
 	}
-
-}
-
